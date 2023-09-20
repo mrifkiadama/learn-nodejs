@@ -10,6 +10,13 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Products{
+  id Int @id @default(autoincrement())
+  name String
+  price Int
+  created_at DateTime @default(now())
+}
+
 // DEFAULT Settings
 // datasource db {
 //   provider = "postgresql"
