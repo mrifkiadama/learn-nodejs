@@ -1,7 +1,13 @@
 // routes/users.js
 const express = require('express');
-const router = express.Router();
+const app = express();
 
-// Define user-related routes here
+const member = require('./member');
+const seller = require('./seller');
+const admin = require('./admin');
 
-module.exports = router;
+app.use('/member',member);
+app.use('/seller',seller);
+app.use('/admin',admin);
+
+module.exports = app
