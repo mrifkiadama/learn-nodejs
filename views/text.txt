@@ -1,0 +1,1 @@
+If you're using server-side rendering, store your view templates here.

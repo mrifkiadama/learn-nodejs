@@ -1,0 +1,3 @@
+- The "helpers" folder often contains functions that are closely related to a specific domain or feature within your application.
+- These functions are designed to assist with specific tasks or operations related to a particular part of your codebase.
+- Examples of functions in a "helpers" folder might include authentication helpers, file upload helpers, or database query helpers.

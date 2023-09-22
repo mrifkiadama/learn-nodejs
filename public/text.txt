@@ -1,0 +1,1 @@
+Serve static assets like CSS, JavaScript, and images from this directory.

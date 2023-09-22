@@ -1,0 +1,1 @@
+Define your application routes here. You can further organize routes based on functionality or version.

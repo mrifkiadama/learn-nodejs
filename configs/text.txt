@@ -1,0 +1,1 @@
+Configuration files, such as general application settings and database configurations.
